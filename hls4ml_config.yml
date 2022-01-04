@@ -1,0 +1,17 @@
+Backend: Vivado
+Board: null
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    IOType: io_stream
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 2000
+    Strategy: Resource
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model '/home/formal/Desktop/NECBH/HLS/HLS_Train_Files_25Dec/Synthesis_test/4th_Jan_fix/keras_model.h5'
+OutputDir: /home/formal/Desktop/NECBH/HLS/HLS_Train_Files_25Dec/Synthesis_test/4th_Jan_fix
+OutputPredictions: null
+ProjectName: myproject
+Stamp: bfBaB1D1
+XilinxPart: xc7a100tcsg324-1
